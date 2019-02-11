@@ -1,0 +1,13 @@
+{
+	"name": "arXiv Direct Download Link",
+	"version": "0.1",
+	"description": "Add a [Direct Download] link beside the existant download link. The downloaded file will be named correctly (With the article title)",
+    "permissions" : ["tabs", "*://arxiv.org/abs/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://arxiv.org/abs/*"],
+            "js": ["addDownloadLink.js"]
+        }
+    ],
+    "manifest_version": 2    
+}
