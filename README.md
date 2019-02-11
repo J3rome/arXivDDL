@@ -10,3 +10,12 @@ I thought others might find it usefull so I bundled it in this small chrome exte
 
 Feel free enhance this as you wish !
 
+## Usage
+
+Simply install the extension via the chromestore (Or manually by cloning this repo)
+
+The extension will be activated on pages with the following url pattern : 
+```
+https://arxiv.org/abs/*
+```
+
